@@ -15,3 +15,7 @@
   ;; Includes buffer names of recently opened files, even if they're not open now.
   (setq ido-use-virtual-buffers t)
   :diminish nil)
+
+(load "~/.emacs.d/programming/global")
+(load "~/.emacs.d/programming/elisp.el")
+(load "~/.emacs.d/programming/clojure")
