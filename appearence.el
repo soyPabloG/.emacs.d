@@ -8,8 +8,6 @@
 ;;   - zero = 0
 ;;   - asterisk = height
 ;;   - braces = straight
-(add-to-list 'default-frame-alist
-             '(font . "-*-Input-medium-normal-normal-*-17-*-*-*-m-0-iso10646-1"))
 
 
 (use-package planet-theme
@@ -18,3 +16,4 @@
   (load-theme 'planet t))
 ;; TODO: FIX Selected text background.
 ;; TODO: Use I-beam pointer everywhere.
+(add-to-list 'default-frame-alist '(font . "Input-18"))
