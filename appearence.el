@@ -15,3 +15,4 @@
 ;;   - asterisk = height
 ;;   - braces = straight
 (add-to-list 'default-frame-alist '(font . "Input-18"))
+(add-to-list 'default-frame-alist '(alpha 97))
