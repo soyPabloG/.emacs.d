@@ -18,7 +18,6 @@
 (use-package cider
   :ensure t
   :hook
-  (cider-mode . cider-turn-on-eldoc-mode)
   (cider-repl-mode . paredit-mode)
   :config
   (setq nrepl-popup-stacktraces nil))
