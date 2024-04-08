@@ -1,6 +1,7 @@
 (load "~/.emacs.d/package-manager")
 (load "~/.emacs.d/defaults")
 (load "~/.emacs.d/appearence")
+(load "~/.emacs.d/markdown")
 
 ;; Hide or abbr. redundant mode names.
 (use-package diminish
