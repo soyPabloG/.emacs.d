@@ -1,3 +1,6 @@
+;; IMPORTANT
+;; Make sure the clj-kondo is on your path.
+;; For installation instructions, see https://github.com/borkdude/clj-kondo.
 (use-package flycheck-clj-kondo
   :ensure t)
 
@@ -7,6 +10,7 @@
   :commands clojure-mode
   :hook
   (clojure-mode . paredit-mode)
+  (clojure-mode . flycheck-mode)
   :config
   (require 'flycheck-clj-kondo))
 
