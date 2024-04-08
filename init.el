@@ -18,6 +18,7 @@
   :diminish nil)
 
 (load "~/.emacs.d/programming/global")
+(load "~/.emacs.d/programming/git")
 (load "~/.emacs.d/programming/elisp.el")
 (load "~/.emacs.d/programming/clojure")
 (load "~/.emacs.d/programming/docker")
