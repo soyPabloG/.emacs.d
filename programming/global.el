@@ -29,20 +29,21 @@
   (prog-mode . rainbow-mode)
   :config
   ;; Disable mode on color names like "red".
-  (setq rainbow-x-colors nil))
+  (setq rainbow-x-colors nil)
+  :diminish nil)
 ;; TODO: FIX Current line font color
 
 (use-package rainbow-identifiers
   :ensure t
   :defer t
   :hook
-  (prog-mode . rainbow-identifiers-mode))
+  (prog-mode . rainbow-identifiers-mode)
+  :diminish nil)
 
 (use-package rainbow-delimiters
   :ensure t
   :hook
   (prog-mode . rainbow-delimiters-mode))
-;; TODO: Change delimeters palette
 
 (use-package avy
   :ensure t
