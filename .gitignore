@@ -5,3 +5,5 @@ elpa/
 ido.last
 recentf
 /transient
+.mc-lists.el
+games/
