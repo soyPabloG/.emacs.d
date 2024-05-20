@@ -9,3 +9,11 @@
 
 (unless package-archive-contents
   (package-refresh-contents))
+
+(use-package quelpa
+  :ensure)
+
+(use-package quelpa-use-package
+  :ensure
+  :config
+  (quelpa-use-package-activate-advice))

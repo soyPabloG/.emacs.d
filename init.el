@@ -22,3 +22,5 @@
 (load "~/.emacs.d/programming/elisp.el")
 (load "~/.emacs.d/programming/clojure")
 (load "~/.emacs.d/programming/docker")
+
+(load "~/.emacs.d/copilot")
